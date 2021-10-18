@@ -138,6 +138,7 @@ void AI() {
 	std::cout << AInumber << std::endl;
 	while (AInumber < playernumber) {
 		int randomnum = (rand() % max) + 1;
+		Sleep(500);
 
 		if (randomnum == 1) { // if the randomnumber is 1 the AI chooses the value 1 or 11
 			std::cout << "You Got an Ace" << std::endl;
